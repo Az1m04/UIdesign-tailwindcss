@@ -24,4 +24,9 @@ npx create-next-app --example with-tailwindcss with-tailwindcss-app
 yarn create next-app --example with-tailwindcss with-tailwindcss-app
 ```
 
+## UI DEMO Image
+
+![image](https://user-images.githubusercontent.com/42888008/147786972-57ca5b09-4baf-4a4a-9f00-cb1d22a53fcf.png)
+
+
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
