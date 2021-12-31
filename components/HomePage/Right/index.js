@@ -7,8 +7,8 @@ import BoxVector from "../../../public/images/box-vector.png";
 
 function Right() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      <div className=" w-8/12">
+    <div className="flex flex-col items-center justify-center min-h-screen  py-2">
+      <div className=" w-8/12 ">
         <div className="text-white text-xl flex mt-5 justify-between">
           <div className="ml-5 flex items-center">
             <div>
@@ -24,24 +24,27 @@ function Right() {
           </div>
         </div>
 
-        <div className=" my-10 mr-40 p-10">
-          <div className=" mx-auto items-center w-2/3">
+        <div className=" my-10 mr-40 p-10 lg:my-8 lg:mr-8 lg:p-8">
+        <form className="">
+
+          <div className=" mx-auto items-center w-2/3 lg:w-10/12">
             <div className=" flex items-center leading-3  mb-2 pb-4 border-b-2 border-gray-800">
               <div>
                 <Image height={50} width={50} src={Box} objectFit="cover" />
               </div>
+              
               <div className="text-white text-3xl ml-3  ">
                 Create Multi User Lot
               </div>
             </div>
             <div
-              className="  rounded-2xl  mt-10 grid grid-cols-2 divide-x-2 divide-gray-700 uppercase text-xl font-semibold "
+              className="  rounded-2xl  mt-10  lg:mt-6 grid grid-cols-2 divide-x-2 divide-gray-700 uppercase text-xl font-semibold "
               style={{ backgroundColor: "#1e1e30", color: "#4b5377" }}
             >
-              <div className="p-5">
+              <div className="p-5 lg:p-4">
                 <div className="mb-2">TOKEN 01</div>
                 <div
-                  className="px-5  py-6  border-gray-700 border text-white rounded-2xl items-center  w-60 leading-3 "
+                  className="px-5  py-6 lg:px-4 lg:py-5 border-gray-700 border text-white rounded-2xl items-center  w-60 lg:w-64 leading-3 "
                   style={{ backgroundColor: "#312f54" }}
                 >
                   <div className="flex items-center">
@@ -61,13 +64,13 @@ function Right() {
                 </div>
               </div>
 
-              <div className="pl-16 py-5">
-                <div className="absolute right-[712px] flex  justify-end">
+              <div className="pl-16 lg:pl-20 py-5 lg:py-4">
+                <div className="absolute right-[712px] lg:right-[390px] flex  justify-end">
                   <img src="https://img.icons8.com/material-outlined/24/4b5377/info.png" />
                 </div>
                 <div className="mb-2">TOKEN 02</div>
                 <div
-                  className="px-5  py-6 border-gray-700 border  text-white rounded-2xl items-center w-56 leading-3 "
+                  className="px-5  py-6 lg:px-4 lg:py-5 border-gray-700 border  text-white rounded-2xl items-center w-56 lg:w-52 leading-3 "
                   style={{ backgroundColor: "#312f54" }}
                 >
                   <div className="flex items-center">
@@ -87,18 +90,18 @@ function Right() {
                   
                 </div>
               </div>
-              <div className="absolute mt-10 right-[1007px]  h-0  ">
+              <div className="absolute mt-10 right-[1007px] lg:right-[703px] h-0  ">
                 <Image src={Matic} width={65} height={65} />
               </div>
             </div>
             <div
-              className="  rounded-2xl  mt-6 grid grid-cols-2 uppercase text-xl font-semibold "
+              className="  rounded-2xl  mt-6 lg:mt-5 grid grid-cols-2 uppercase text-xl font-semibold "
               style={{ backgroundColor: "#1e1e30", color: "#4b5377" }}
             >
-              <div className="p-5">
+              <div className="p-5 lg:p-4">
                 <div className="mb-2">STARTS ON</div>
                 <div
-                  className="px-5 py-8   border-gray-700 border text-white rounded-2xl items-center  w-2/1 leading-3 "
+                  className="px-5 py-8 lg:px-4   border-gray-700 border text-white rounded-2xl items-center  w-2/1 lg:3/1 leading-3 "
                   style={{ backgroundColor: "#312f54" }}
                 >
                   <div className="flex items-center">
@@ -108,13 +111,13 @@ function Right() {
                 </div>
               </div>
 
-              <div className="pl-12 py-5">
-                <div className="absolute right-[712px] flex  justify-end">
+              <div className="pl-12 lg:pl-20 py-5 lg:py-4">
+                <div className="absolute right-[712px] md:right-[] lg:right-[390px]  flex  justify-end">
                   <img src="https://img.icons8.com/material-outlined/24/4b5377/info.png" />
                 </div>
                 <div className="mb-2">LOT DURATION</div>
                 <div
-                  className="px-5 py-8 border-gray-700 border  text-white rounded-2xl items-center w-2/3 leading-3 "
+                  className="px-5 py-8 lg:px-4  border-gray-700 border  text-white rounded-2xl items-center w-2/3  leading-3 "
                   style={{ backgroundColor: "#312f54" }}
                 >
                   <div className="flex items-center">
@@ -127,16 +130,16 @@ function Right() {
 
             {/*  */}
             <div
-              className="  rounded-2xl  mt-6 grid grid-cols-2  uppercase text-xl font-semibold "
+              className="  rounded-2xl  mt-6 lg:mt-5 grid grid-cols-2  uppercase text-xl font-semibold "
               style={{ backgroundColor: "#1e1e30", color: "#4b5377" }}
             >
-              <div className="p-5">
-                <div className="absolute right-[712px] flex  justify-end">
+              <div className="p-5 lg:p-4 ">
+                <div className="absolute right-[712px] lg:right-[390px] flex  justify-end">
                   <img src="https://img.icons8.com/material-outlined/24/4b5377/info.png" />
                 </div>
                 <div className="mb-2">INITIAL DEPOSIT</div>
                 <div
-                  className="px-5 py-5  border-gray-700 border text-white rounded-2xl items-center  w-2/ leading-3 "
+                  className="px-5 py-5 lg:px-4 lg:py-4  border-gray-700 border text-white rounded-2xl items-center  w-2/ leading-3 "
                   style={{ backgroundColor: "#312f54" }}
                 >
                   <div className="flex  items-center">
@@ -149,8 +152,13 @@ function Right() {
               </div>
             </div>
             <div className="flex justify-center mt-14 items-center">
-              <button
-                className="px-6 py-4 rounded-3xl text-white leading-3  shadow-md shadow-purple-700"
+              <button 
+              type="submit"
+              onClick={(e)=>
+             { e.preventDefault()
+              console.log('I am form')}
+
+             }   className="px-6 py-4 rounded-3xl text-white leading-3  shadow-md shadow-purple-700"
                 style={{ backgroundColor: "#8b6df7" }}
               >
                 <div className="flex items-center">
@@ -161,8 +169,11 @@ function Right() {
                 </div>
               </button>
             </div>
+
           </div>
+          </form>
         </div>
+
       </div>
     </div>
   );

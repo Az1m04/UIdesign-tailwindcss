@@ -9,15 +9,15 @@ export default function Home() {
   return (
     <div className="">
       <Head>
-        <title>Create Next App</title>
+        <title>UI demo</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className='flex' >
      
-       <div className=" h-screen w-1/4" style={{backgroundColor:'#17162a'}}>
+       <div className=" hidden md:block lg:h-screen lg:w-1/4 " style={{backgroundColor:'#17162a'}}>
        <Left/>
        </div>
-       <div className=" h-screen w-3/4" style={{background:'#151516'}}>
+       <div className=" h-screen w-3/4 md:w-1/2 lg:w-3/4" style={{background:'#151516'}}>
        <Right/>
        </div>
       </div>
